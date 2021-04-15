@@ -64,11 +64,11 @@ api = application = falcon.App()
 hi = HelloWorld()
 
 api.add_route('/hi', hi)
-'''
-
+```
 **UNITTEST**
 ###### tests.py
-'''
+
+```
 class TestHelloWorldService(testing.TestCase):
 
     def setUp(self):
@@ -77,7 +77,6 @@ class TestHelloWorldService(testing.TestCase):
     def test_hello_world(self):
         resp = self.api.simulate_get('/hi')
         self.assertDictEqual(resp.json, {'greeting': 'Hi!'})
-
 ```
 
 Feel free to use the project and ask your questions if any. 
