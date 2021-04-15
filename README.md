@@ -64,9 +64,11 @@ api = application = falcon.App()
 hi = HelloWorld()
 
 api.add_route('/hi', hi)
+'''
 
 **UNITTEST**
-
+###### tests.py
+'''
 class TestHelloWorldService(testing.TestCase):
 
     def setUp(self):
