@@ -1,0 +1,39 @@
+WARNING: '.' not a valid package name; please use only .-separated package names in setup.py
+running clean
+'build\lib' does not exist -- can't clean it
+'build\bdist.win-amd64' does not exist -- can't clean it
+'build\scripts-3.8' does not exist -- can't clean it
+running sdist
+running egg_info
+creating Sample.egg-info
+writing Sample.egg-info\PKG-INFO
+writing dependency_links to Sample.egg-info\dependency_links.txt
+writing namespace_packages to Sample.egg-info\namespace_packages.txt
+writing top-level names to Sample.egg-info\top_level.txt
+writing manifest file 'Sample.egg-info\SOURCES.txt'
+reading manifest file 'Sample.egg-info\SOURCES.txt'
+writing manifest file 'Sample.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: Check: missing required meta-data: url
+
+warning: Check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating Sample-1.0.dev0
+creating Sample-1.0.dev0\Sample.egg-info
+copying files to Sample-1.0.dev0...
+copying __init__.py -> Sample-1.0.dev0
+copying app.py -> Sample-1.0.dev0
+copying services.py -> Sample-1.0.dev0
+copying setup.py -> Sample-1.0.dev0
+copying Sample.egg-info\PKG-INFO -> Sample-1.0.dev0\Sample.egg-info
+copying Sample.egg-info\SOURCES.txt -> Sample-1.0.dev0\Sample.egg-info
+copying Sample.egg-info\dependency_links.txt -> Sample-1.0.dev0\Sample.egg-info
+copying Sample.egg-info\namespace_packages.txt -> Sample-1.0.dev0\Sample.egg-info
+copying Sample.egg-info\top_level.txt -> Sample-1.0.dev0\Sample.egg-info
+copying Sample.egg-info\zip-safe -> Sample-1.0.dev0\Sample.egg-info
+Writing Sample-1.0.dev0\setup.cfg
+creating dist
+Creating tar archive
+removing 'Sample-1.0.dev0' (and everything under it)
