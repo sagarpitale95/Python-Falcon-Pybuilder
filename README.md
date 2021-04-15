@@ -79,7 +79,4 @@ class TestHelloWorldService(testing.TestCase):
         self.assertDictEqual(resp.json, {'greeting': 'Hi!'})
 ```
 
-Feel free to use the project and ask your questions if any. 
-
-Thanks. 
 
